@@ -12,6 +12,8 @@ obj/
 ## Rider (JetBrains)
 .idea/
 *.sln.iml
+*.DotSettings.user
+**/*.DotSettings.user
 
 ## ASP.NET Core secrets
 **/appsettings.*.json
@@ -19,7 +21,6 @@ obj/
 
 ## dotnet tools
 tools/
-**/*.DotSettings.user
 
 ## NUGET
 *.nupkg
@@ -41,9 +42,6 @@ Thumbs.db
 *.bak
 *.swp
 
-## Entity Framework
-Migrations/
-
 ## Coverage / Test
 TestResults/
 coverage/
@@ -54,3 +52,6 @@ coverage/
 ## Optional: if you don't want to version SQLite or similar files
 *.db
 *.sqlite
+
+# Configs locais
+appsettings.Development.json
