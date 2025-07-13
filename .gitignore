@@ -1,0 +1,56 @@
+## Build results
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider (JetBrains)
+.idea/
+*.sln.iml
+
+## ASP.NET Core secrets
+**/appsettings.*.json
+!**/appsettings.json
+
+## dotnet tools
+tools/
+**/*.DotSettings.user
+
+## NUGET
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+*.psmdcp
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Temporary files
+*.tmp
+*.bak
+*.swp
+
+## Entity Framework
+Migrations/
+
+## Coverage / Test
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.code-coverage
+
+## Optional: if you don't want to version SQLite or similar files
+*.db
+*.sqlite
